@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.navbar {
+  display: flex;
+  background-color: black;
+  color: antiquewhite;
+  font-size: 20px;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  height: 75px;
+  position: fixed;
+  top: 0;
+  opacity: 0.75;
+}
+
+.navbar > div {
+  flex-grow: 1;
+}
+
+.nav-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  justify-content: center;
+  height: auto;
+  /* flex-grow: 1; */
+}
+
+img {
+  width: 98.75vw;
+  height: auto;
+}
+
+.about-us {
+  color: gold;
+  background-color: black;
+}
+
+.services > div {
+  color: gold;
+}
